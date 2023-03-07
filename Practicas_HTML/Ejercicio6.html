@@ -1,0 +1,36 @@
+<!--Ejercicio 6:
+Queremos colocar un párrafo con un texto explicativo. Posteriormente colocaremos un 
+trozo de código cualquiera de un lenguaje de programación como java (unas 10 líneas). 
+Dicho código irá dentro de un tag de preformato. Después colocaremos otro segundo 
+párrafo. De esta forma veremos claramente el aspecto de un trozo de código 
+preformateado.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 6</title>
+    </head>
+    <body>
+        <h1>Ejercicio 6</h1>
+        <h2>En las siguientes líneas vamos a escribir un código java:</h2>
+        <pre>
+            public class Producto {
+
+                public String nombre;
+                public int precio;
+            
+                public Producto(String nombre, int precio) {
+                    this.nombre = nombre;
+                    this.precio = precio;
+                }
+            
+                @Override
+                public String toString() {
+                    return "Nombre: " + this.nombre + " | Precio: " + this.precio;
+                }
+                
+            }
+        </pre>
+    </body>
+
+</html>
