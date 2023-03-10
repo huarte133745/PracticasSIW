@@ -1,0 +1,84 @@
+<!--Ejercicio 15
+Vamos a realizar una página web completa con todos sus contenidos y datos 
+estructurados.
+En la parte de arriba tendremos una cabecera que contendrá una fotografía en 
+formato apaisado.
+
+Debajo tendremos dentro de una tabla un menú con las siguientes opciones
+.- Presentación
+.- Calidad
+.- Localización
+.- Noticias
+.- Contactar
+
+Cada página tendrá además en la parte de abajo un pié con los datos de la dirección y 
+de contacto.
+
+Las diferentes partes contendrán lo siguiente:
+.- Presentación: Constará de un texto y de 2 fotografías.
+
+.- Calidad: Constará de un texto y de 2 fotografías. Además en la parte de abajo 
+aparecerán unos enlaces que nos llevarán a unos ficheros pdf. (importante que nos los 
+debe abrir en una pestaña nueva).
+
+.- Localización: Tendrá los datos de la dirección de la empresa, así como un típico mapa 
+de google (No vale como fotografía. Debe ser un mapa funcional de google).
+
+.- Noticias: Este apartado inicialmente nos mostrará un listado con la introducción de 4 
+noticias. Además en cada noticia tendremos un link que pondrá “Leer más…”. Este 
+enlace nos llevará a una página donde tendremos montada la página de la noticia con 
+un texto y 2 fotografías. También tendremos un enlace de volver que nos llevará de 
+nuevo a las noticias.
+
+.- Contactar: En esta página tendremos el típico formulario de contacto que recogerá 
+los siguientes datos:
+
+Nombre y apellidos
+Nombre empresa
+Dirección
+Población
+Provincia
+Teléfono
+Email
+Observaciones
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Ejercicio 15</title>
+    </head>
+    <body>
+        <img src="Imagenes/fotoapaisada.jpg" width=”800” height=”600”/><br><br>
+        <table>
+            <caption>
+                <strong>Menú</strong>
+            </caption>
+            <tr>
+                <th>
+                    <a href="Presentacion.html">Presentación</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="Calidad.html">Calidad</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="Localizacion.html">Localización</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="Noticias.html">Noticias</a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <a href="Contactar.html">Contactar</a>
+                </th>
+            </tr>
+        </table><br>
+    </body>
+</html>
