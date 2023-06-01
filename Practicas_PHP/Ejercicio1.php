@@ -1,6 +1,8 @@
 <?php
-    $archivo = fopen("archivo.html", "w") or die("error creando fichero!");
-    $txt = "<html><body><h1>Datos</h1><p>$nombre</p><p>$apellido</p></body></html>";
-    fwrite($archivo, $txt);
-    fclose($archivo);
+    echo "<html><head><title>Ejercicio 1</title></head><body>";
+    for($i = 0; $i < 10; $i = $i+1) 
+    {
+        echo "<p>Hola mundo!!!</p>";
+    }
+    echo "</body><html>";
 ?>
